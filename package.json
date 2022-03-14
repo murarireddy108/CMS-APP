@@ -1,0 +1,30 @@
+{
+  "name": "cms-app",
+  "version": "1.0.0",
+  "description": "CMS application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.1.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "flash": "^1.1.0",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "method-override": "^3.0.0",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
+}
